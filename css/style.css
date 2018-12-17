@@ -10,7 +10,8 @@ body {
 h1 {
   font-weight: 400;
   font-size: 2.5rem;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
+  font-style: inherit;
   margin: 0;
 }
 
