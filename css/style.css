@@ -36,6 +36,9 @@ main {
 
 #landing {
   background: #fff;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
 }
 
 #landing-text {
@@ -60,6 +63,17 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   height: 50vh;
+  flex: 0 1 60vw;
+  margin: 0;
+}
+
+#landing-image2 {
+  /* background: url(https://source.unsplash.com/De8wMYoSSBc); */
+  background-image: url(/photo/bir.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 50vh; */
   flex: 0 1 60vw;
   margin: 0;
 }
