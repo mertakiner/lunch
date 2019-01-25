@@ -9,3 +9,14 @@ $("#view-work").on("click", function() {
     900
   );
 });
+
+$("#view-work2").on("click", function() {
+  const images = $("#why").position().top;
+
+  $("html, body").animate(
+    {
+      scrollTop: images
+    },
+    1300
+  );
+});

@@ -18,8 +18,8 @@ h1 {
 h2 {
   font-weight: 400;
   font-size: 1.2rem;
-  text-transform: capitalize;
-  margin: 0;
+  /* text-transform: capitalize; */
+  margin: 1;
 }
 
 img {
