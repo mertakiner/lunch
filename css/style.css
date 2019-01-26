@@ -69,7 +69,8 @@ main {
 
 #landing-image2 {
   /* background: url(https://source.unsplash.com/De8wMYoSSBc); */
-  background-image: url(/photo/bir.jpg);
+  /* background-image: url(/photo/bir.jpg); */
+  background: url(/photo/bir.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
