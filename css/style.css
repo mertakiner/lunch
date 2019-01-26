@@ -129,7 +129,9 @@ footer h3 {
 /* Screen Sizes 500px and Up */
 @media (min-width: 500px) {
   #landing {
-    display: flex;
+    /* display: flex; */
+    /* flex-direction: column; */
+    flex-wrap: wrap;
     height: 100%;
   }
 
@@ -151,4 +153,9 @@ footer h3 {
   .btn {
     padding: 1rem 3rem;
   }
+  /* #landing {
+    /* display: flex; */
+    flex-direction: row;
+    height: 100%;
+  } */
 }
