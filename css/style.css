@@ -45,6 +45,7 @@ main {
   display: flex;
   flex: 0 1 40vw;
   height: 50vh;
+  width: 50vh;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -74,7 +75,8 @@ main {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  /* height: 100vh; */
+  height: 50vh;
+  width: 50vh;
   flex: 0 1 60vw;
   margin: 0;
 }
