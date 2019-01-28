@@ -70,8 +70,8 @@ main {
 
 #landing-image2 {
   /* background: url(https://source.unsplash.com/De8wMYoSSBc); */
-  /* background-image: url(/photo/bir.jpg); */
-  background: url(https://source.unsplash.com/user/makiner/1600x2000);
+  background-image: url(/photo/bir.jpg);
+  /* background: url(https://source.unsplash.com/user/makiner/1600x2000); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
