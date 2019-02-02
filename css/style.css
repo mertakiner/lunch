@@ -24,11 +24,17 @@ h2 {
 
 img {
   display: block;
-  width: 100%;
+  /* width: 100%; */
 }
 
 #img1 {
   height: 100%;
+  /* width: 100%; */
+  justify-content: flex-end;
+}
+
+#img2 {
+  width: 100%;
 }
 
 main {
@@ -47,7 +53,7 @@ main {
 
 #landing-text {
   display: flex;
-  flex: 0 1 40vw;
+  flex: 0 1 50vw;
   /* height: 50vh;
   width: 50vh; */
   justify-content: center;
@@ -67,9 +73,9 @@ main {
   /* background-position: center;
   background-size: cover;
   background-repeat: no-repeat; */
-  /* height: 50vh; */
+  /* height: 100vh; */
   flex: 0 1 60vw;
-  /* margin: 0; */
+  margin: 0;
 }
 
 .btn {
@@ -109,7 +115,7 @@ main {
 
 footer {
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 1rem 2rem;
   margin: auto;
   color: #333;
 }
@@ -133,7 +139,8 @@ footer h3 {
   }
 
   #landing-image {
-    /* height: 100vh; */
+    height: 100vh;
+    width: 100vh;
   }
 
   #landing-image2 {
